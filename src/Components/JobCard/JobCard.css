@@ -1,0 +1,114 @@
+
+
+.job_card {
+    width: 340px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    border: 1px solid #FAFAFA;
+    background: #FFF;
+    padding: 25px 24px 24px 24px;
+    box-shadow: 0 4px 39px 0 rgba(0, 0, 0, 0.04);
+}
+
+.head {
+    color: #212725;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 200.06% */
+}
+
+.descr {
+    width: 365px;
+    color:  #767676;
+    font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.job_btns {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin-top: 16px;
+}
+
+.job_btn {
+    display: flex;
+    width: 93px;
+    height: 37px;
+    padding: 12px 13px 11px 14px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 82px;
+    background: #F9FDFB;
+}
+
+.card_inside {
+    display: inline-flex;
+    align-items: center;
+    gap: 83px;
+    margin-top: 24px;
+}
+
+.inner_div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logoIcon {
+    width: 32px;
+    height: 26px;
+}
+
+.inner_title {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.company {
+    color:  #313131;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 250.075% */
+}
+
+.country {
+    color:  #767676;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 285.8% */
+}
+
+.apply_btn {
+    display: flex;
+    width: 100px;
+    height: 32px;
+    padding: 26px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 25px;
+    border: 1px solid #002570;
+    color: #002570;
+    text-align: center;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+}

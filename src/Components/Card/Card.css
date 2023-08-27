@@ -1,0 +1,54 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 367px;
+    height: 420px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #CCC;
+    background: #FBFBFB;
+}
+
+.card > img {
+    width: 128px;
+    height: 128px;
+    flex-shrink: 0;
+    align-items: center;
+    margin-top: 51px;
+}
+
+.title {
+    color: #0D0733;
+    text-align: center;
+    font-family: Inter, "Inter" , sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 101%;
+    margin-top: 14px;
+}
+
+.desc {
+    width: 280px;
+    color: #313131;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%;
+    opacity: 0.35;
+    margin-top: 10px;
+}
+
+.joinBtn {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 45px;
+    background: #E6E9F1;
+    margin-top: 20px;
+}

@@ -1,0 +1,41 @@
+
+
+.job_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    background: #FFF;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.explore_btn {
+    display: flex;
+    width: 215px;
+    height: 54px;
+    padding: 26px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    background: #002570;
+    color: #FFF;
+    text-align: center;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+}

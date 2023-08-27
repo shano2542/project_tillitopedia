@@ -1,0 +1,97 @@
+
+.navbar {
+
+    background: #FFF9F6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    margin: 20px 0px;
+}
+
+.menu {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+.menu > div {
+    color: #212725;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 130% */
+}
+
+.login_btn {
+    display: flex;
+    width: 118px;
+    height: 54px;
+    padding: 26px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #002570;
+}
+
+.end_menu {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.icon_btn {
+    display: flex;
+    width: 54px;
+    height: 54px;
+    padding: 11px 11px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 53px;
+    background:  #002570;
+}
+
+
+/* Media query for tablet breakpoint */
+@media (max-width: 768px) {
+    .logo_icon {
+        width: 170px;
+    }
+    .menu {
+        display: none; /* Hide the menu on tablets */
+    }
+
+    .end_menu {
+        gap: 16px; /* Adjust gap for spacing on tablets */
+    }
+    .login_btn {
+        width: 90px;
+        height: 44px;
+    }
+}
+
+/* Media query for mobile breakpoint */
+@media (max-width: 480px) {
+    .menu {
+        display: none; /* Hide the menu on mobile */
+    }
+
+    .end_menu {
+        display: flex;
+        gap: 14px;
+    }
+
+    .login_btn {
+        padding: 10px 16px; /* Adjust padding for mobile */
+        font-size: 14px; /* Adjust font size for mobile */
+    }
+
+    .icon_btn {
+        width: 44px;
+        height: 44px;
+        padding: 8px;
+    }
+}
